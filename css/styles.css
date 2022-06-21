@@ -417,7 +417,7 @@ span.logo-prefix {
   width: 44px;
   height: 44px;
   color: var(--icon-fill-color);
-  transition: color 250ms var(--cubic-bezier), bacground-color 250ms var(--cubic-bezier);
+  transition: color 250ms var(--cubic-bezier), background-color 250ms var(--cubic-bezier);
 }
 
 .our-team-soc-link:hover,
@@ -487,7 +487,8 @@ span.logo-prefix {
   border: none;
   cursor: pointer;
   background-color: #f5f4fa;
-  transition: color 250ms var(--cubic-bezier), box-shadow 250ms var(--cubic-bezier);
+  transition: color 250ms var(--cubic-bezier), background-color 250ms var(--cubic-bezier),
+    box-shadow 250ms var(--cubic-bezier);
 }
 
 .filter-item:not(:last-child) {
@@ -607,6 +608,7 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms var(--cubic-bezier);
 }
 
 .footer-contacts .link:hover,
@@ -647,11 +649,7 @@ footer {
   width: 44px;
   height: 44px;
   color: var(--white-color);
-  transition: color 250ms var(--cubic-bezier), background-color 250ms var(--cubic-bezier);
-}
-
-.footer-soc-link {
-  transition: color 250ms var(--cubic-bezier), box-shadow 250ms var(--cubic-bezier);
+  transition: background-color 250ms var(--cubic-bezier);
 }
 
 .footer-soc-link:hover,
